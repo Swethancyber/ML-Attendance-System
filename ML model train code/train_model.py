@@ -10,7 +10,7 @@ from tensorflow.keras.preprocessing.image import ImageDataGenerator
 datagen = ImageDataGenerator(rescale=1./255)
 
 train_data = datagen.flow_from_directory(
-    "ml-attandes_system/Face-Dataset/Localized Face Dataset/Male/Bollywood/bollywood 1",
+    " # enter the location of your file",
     target_size=(224, 224),
     batch_size=32,
     class_mode="categorical"
