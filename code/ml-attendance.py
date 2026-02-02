@@ -15,7 +15,7 @@ mode = input("Enter option (1 or 2): ")
 
 # -------------------- LOAD MODELS --------------------
 yolo = YOLO("ml-attandes_system/yolov8n.pt")
-model = load_model("/home/cyberdark/project_apple/ml-attandes_system/actors_face_model.h5")
+model = load_model(" # enter your trained model")
 
 print("Models loaded successfully")
 
